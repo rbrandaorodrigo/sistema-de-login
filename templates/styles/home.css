@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #435165;
+    padding: 0 30px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.logo{
+    font-size: 45px;
+    color: white;
+    padding: 0 40px;
+}
+
+.user-card{
+    height: 50px;
+    width: 220px;
+    box-shadow: 0 0 2px #2f3c4e;
+    border-radius: 25px 0px 0px 25px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.user-photo{
+    width: 50px;
+    height: 50px;
+}
+
+.user-photo img{
+    height: auto;
+    width: 100%;
+}
+
+.user-name{
+    color:white;
+    padding-left: 10px;
+}
+
+.user-menu-icon{
+    color: white;
+    padding: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 55px;
+    background-color: #f9f9f9;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.user-card:hover .dropdown-content {
+    display: block;
+}

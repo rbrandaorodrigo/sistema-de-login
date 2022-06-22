@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Login</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles/login.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+</head>
+<body>
+    <main>
+        <div class="login">
+            <h1>RB Login</h1>
+            <form action="/login" method="post">
+                <label for="username">
+                    <!-- font awesome icon -->
+                    <i class="fas fa-user"></i>
+                </label>
+                <input type="text" name="email" placeholder="Email" id="email" required>
+                <label for="password">
+                    <i class="fas fa-lock"></i>
+                </label>
+                <input type="password" name="password" placeholder="Senha" id="password" required>
+                <input type="submit" value="Entrar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

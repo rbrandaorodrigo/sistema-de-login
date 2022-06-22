@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "node-localstorage": "^2.2.1"
+  },
+  "name": "sistema-de-login",
+  "version": "1.0.0",
+  "description": "Sistema de login",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbrandaorodrigo/Sistema-de-login.git"
+  },
+  "author": "Rodrigo Brandão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbrandaorodrigo/Sistema-de-login/issues"
+  },
+  "homepage": "https://github.com/rbrandaorodrigo/Sistema-de-login#readme"
+}
