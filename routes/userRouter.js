@@ -12,7 +12,7 @@ router.get('/signup', (req, res)=>{res.render('signUp')})
 
 router.get('/logout', userController.logout)
 
-router.post('/cadastro', express.urlencoded({extended: true}), userController.register)
+router.post('/signup', express.urlencoded({extended: true}), userController.register)
 router.post('/login', express.urlencoded({extended: true}), userController.login)
 
 module.exports = router

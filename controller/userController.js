@@ -25,6 +25,7 @@ const userController = {
                 try {
                     const savedUser = await user.save()
                     console.log('novo usuário criado: ' + savedUser)
+                    return res.redirect('login')
                 } catch (error) {
                     return res.status(400).send(error.message)
                 }
