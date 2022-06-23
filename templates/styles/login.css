@@ -72,4 +72,8 @@ main{
 .login form input[type="submit"]:hover {
     background-color: #2868c7;
       transition: background-color 0.2s;
-  }
+}
+
+a {
+    text-decoration: none;
+}

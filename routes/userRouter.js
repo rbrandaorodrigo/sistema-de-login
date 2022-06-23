@@ -6,13 +6,9 @@ const authController = require('../controller/authController')
 
 router.use(cookieParser());
 
-router.get('/', authController, (req, res)=>{
-    res.render('home')
-})
-
-router.get('/login', (req, res)=>{
-    res.render('login')
-})
+router.get('/', authController, (req, res)=>{res.render('home')})
+router.get('/login', (req, res)=>{res.render('login')})
+router.get('/signup', (req, res)=>{res.render('signUp')})
 
 router.get('/logout', userController.logout)
 
