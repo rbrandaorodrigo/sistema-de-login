@@ -13,18 +13,24 @@
         <div class="login">
             <h1>RB Sign Up</h1>
             <form action="/signup" method="post">
-                <label for="username">
-                    <i class="fas fa-user"></i>
-                </label>
-                <input type="text" name="name" placeholder="Nome" id="name" required>
-                <label for="email">
-                    <i class="fas fa-at"></i>
-                </label>
-                <input type="text" name="email" placeholder="Email" id="email" required>
-                <label for="password">
-                    <i class="fas fa-lock"></i>
-                </label>
-                <input type="password" name="password" placeholder="Senha" id="password" required>
+                <div class="container">
+                    <label for="username">
+                        <i class="fas fa-user"></i>
+                    </label>
+                    <input type="text" name="name" placeholder="Nome" id="name" required>
+                </div>
+                <div class="container">    
+                    <label for="email">
+                        <i class="fas fa-at"></i>
+                    </label>
+                    <input type="text" name="email" placeholder="Email" id="email" required>
+                </div>
+                <div class="container">
+                    <label for="password">
+                        <i class="fas fa-lock"></i>
+                    </label>
+                    <input type="password" name="password" placeholder="Senha" id="password" required>
+                </div>
                 <input type="submit" value="Entrar">
             </form>
         </div>

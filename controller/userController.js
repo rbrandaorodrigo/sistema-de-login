@@ -51,6 +51,7 @@ const userController = {
                 // Cria token
                 token = await jwt.sign({
                     id: selectedUser._id,
+                    name: selectedUser.name,
                     data: new Date(),
                     
                 }, process.env.TOKEN_SECRET, { expiresIn: '24h' })
